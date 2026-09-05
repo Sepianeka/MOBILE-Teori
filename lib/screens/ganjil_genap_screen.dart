@@ -56,6 +56,7 @@ class _GanjilGenapScreenState extends State<GanjilGenapScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xFFEC4899),
         title: const Text('Cek Ganjil / Genap'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new_rounded),

@@ -63,6 +63,7 @@ class _TambahKurangScreenState extends State<TambahKurangScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xFF10B981),
         title: const Text('Penjumlahan & Pengurangan'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new_rounded),

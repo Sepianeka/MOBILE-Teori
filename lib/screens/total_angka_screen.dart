@@ -114,6 +114,7 @@ class _TotalAngkaScreenState extends State<TotalAngkaScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xFF8B5CF6),
         title: const Text('Jumlah Total Angka'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new_rounded),

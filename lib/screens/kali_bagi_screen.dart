@@ -79,6 +79,7 @@ class _KaliBagiScreenState extends State<KaliBagiScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: const Color(0xFFF59E0B),
         title: const Text('Perkalian & Pembagian'),
         leading: IconButton(
           icon: const Icon(Icons.arrow_back_ios_new_rounded),
